@@ -1,0 +1,87 @@
+groups:
+
+  g:groupmanager_admin:
+    permissions:
+    - groupmanager.listgroups
+    - groupmanager.mandemote
+    - groupmanager.manpromote
+    - groupmanager.manselect
+    - groupmanager.manuadd
+    - groupmanager.manudel
+    - groupmanager.manwhois
+    - groupmanager.notify.other
+    - groupmanager.mantogglevalidate
+    - groupmanager.mansave
+    - groupmanager.mangcheckp
+    - groupmanager.manglistp
+    - groupmanager.manucheckp
+    - groupmanager.manulistp
+
+  g:admin:
+    permissions:
+    - essentials.time
+    - bukkit.command.op
+    - bukkit.command.op.give
+    - bukkit.command.op.take
+    - bukkit.command.plugins
+    - bukkit.command.teleport
+    - bukkit.command.version
+    - bukkit.command.whitelist
+    - bukkit.command.whitelist.add
+    - bukkit.command.whitelist.disable
+    - bukkit.command.whitelist.enable
+    - bukkit.command.whitelist.list
+    - bukkit.command.whitelist.reload
+    - bukkit.command.whitelist.remove
+    - essentials.ban
+    - essentials.ban.notify
+    - essentials.banip
+    - essentials.broadcast
+    - essentials.delwarp
+    - essentials.kick
+    - essentials.kick.notify
+    - essentials.mute
+    - essentials.mute.notify
+    - essentials.nick.others
+    - essentials.seen.banreason
+    - essentials.seen.extra
+    - essentials.setwarp
+    - essentials.time.set
+    - essentials.unban
+    - essentials.unbanip
+    - essentials.weather
+    - essentials.whois
+
+  g:default:
+    permissions:
+    - -bukkit.command.version
+    - -bukkit.command.plugins
+    - essentials.help
+    - essentials.list
+    - essentials.spawn
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.url
+    - essentials.chat.magic
+    - essentials.delhome
+    - essentials.home
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.msg
+    - essentials.msg.color
+    - essentials.msg.format
+    - essentials.seen
+    - essentials.signs.use.*
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.nick
+    - essentials.nick.color
+    - essentials.realname
+    - essentials.clearinventory
+    - essentials.warps.*
